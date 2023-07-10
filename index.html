@@ -6,61 +6,68 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .headerContent{
-            color: chocolate;
-            margin-right: 50px;
-        }
-        #socila_icons{
-            color: blueviolet;
-            margin-right: 20px;
-            padding:5px;
-        }
-        .Home{
+        .list li{
+            display:inline-block;
+            text-transform: uppercase;
             margin-right: 20px;
         }
-        .technologyStack{
-            margin-right: 020px;
-        }
-        .PROJECT{
+        .follow li{
+            text-transform: uppercase;
+            display:inline-block;
             margin-right: 20px;
+        
+
         }
-        .Education{
+        .icon li{
+            display: inline-block;
             margin-right: 20px;
-        }
-        .ABOUTME{
-            margin-right: 20px;
+            color:blue;
         }
     </style>
- </head>
+</head>
 <body>
-    <header>
-        <i class="fa fa-address-book" name="Mohit sharma"  aria-hidden="true"></i>
-        <span class="headerContent">Mohit sharma</span>
-        <i class="fa fa-phone-square" name="8600555099"  aria-hidden="true" ></i>
-        <span class="headerContent">8600555099</span>
-        <i class="fa fa-envelope" name="mohitsharma@gmail.com"  aria-hidden="true">
-        <span class="headerContent">mohitsharma@gmail.com</span>
-        <td>
-           <button type="download resume">download resume</button>
-        </td>
-    </header>
-    <br><br>
-    <a href="Home.html" target="myname" class="Home">HOME</a>
-    <a href="technologyStack.html" target="myname" class="technologyStack">TECHNOLOGY STACK</a>
-    <a href="projectDetails.html" target="myname" class="PROJECT">PROJECT</a>
-    <a href="" target="myname" class="Education">EDUCATION</a>
-    <a href="aboutme.html" target="myname" class="ABOUTME">ABOUT ME</a><br><br>
-    <iframe width="800px" height="500px" src="" name="myname" frameborder="0"></iframe>
+    <ul class="icon">
+        <li><a><i class="fa fa-user-circle" aria-hidden="true"></i>mohit sharma</a></li>
+        <li><a><i class="fa fa-phone-square" aria-hidden="true"></i>88889999</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i>mohitsharma@gmail,com</a></li>
+        <li><a><button type="download resume">download resume</button></li></a>
+    </ul>
+    
+        <ul class="list">
+            <li>
+                <a href="Home.html" target="myname">Home</a>
+            </li>
+            <li>
+                <a href="technologyStack.html" target="myname">techchnologyStack</a>
+            </li>
+            <li>
+                <a href="projectDetails.html" target="myname">project</a>
+            </li>
+            <li>
+                <a href="Education.html" target="myname">Education</a>
+            </li>
+            <li>
+                <a href="aboutme.html" target="myname">aboutme</a>
+            </li>
+        </ul>
+        <br><br>
+        <iframe width="600px" height="500px" target="myname" ></iframe>
+    
+    
     <h2>Follow me</h2>
-        <a href="#" class="linked in ">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a href="#" class="instragram">
-        <a href="#">
-            <i class="fa fa-instagram" aria-hidden="true" ></i>
-        </a>
-        <a href="#" class="facebook">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>  
-        </a>
+    <ul class="follow">
+        <li>
+            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+        </li>
+        <li>
+            <a href="#" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+        
+       
 
     
 </body>
