@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <style>
         table, tr, th, td {
             border: 2px solid rgb(154, 115, 42);
             border-collapse: collapse;
         }
+        h2{
+            font-family: 'Poppins', sans-serif;
+            color: aqua;
+        }
+        p,ul{
+            font-family: 'Signika Negative', sans-serif;
+            color: darkcyan;
+
+        }
+
     </style>
 </head>
 <body>
     <h2>My Personal Details</h2>
-    <img src="developer.png.png" alt="profile photo">
+    <img src="developer.png" alt="profile photo">
     <p>Mohit Sharma</p>
     <h2>contact Details</h2>
     <p>Mobile: 1234569090</p>
@@ -27,3 +40,33 @@
         <li>Angular</li>
     </ul>
     <hr>
+    <h2>Technology</h2>
+    <table class="technology" >
+        <thead>
+           <th>sr.no</th>
+           <th>Technology stack</th>
+           <th>Rating</th>
+        </thead>
+        <tbody > 
+            <tr>
+                <td>1</td>
+                <td>HTML</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CSS</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>JavaScript</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Angular</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
